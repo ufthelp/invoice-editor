@@ -1,0 +1,50 @@
+
+.delete-btn{
+  padding: 0 20px;
+  font-size: 14px;
+}
+
+.delete-btn:hover {
+  background-color: #999;
+  cursor: pointer;
+}
+
+.item-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 5px 0 10px;
+    flex-wrap: wrap;
+}
+
+.add-btn {
+    display: flex;
+    margin: 49px;
+    background-color: #222222;
+    padding: 8px 12px;
+    color: #fff;
+    cursor: pointer;
+}
+.item-label {
+    display: flex;
+    justify-content: space-around;
+}
+.form-item{
+    box-shadow: none;
+    padding: 8px 12px;
+    height: 21px;
+    border-radius: 4px;
+}
+
+/*Invoice Footer*/
+.invoice-total{
+    margin-left: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.invoice-cal{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    align-self: flex-start;
+}

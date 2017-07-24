@@ -1,0 +1,15 @@
+
+/*Invoice Component CSS */
+.invoice {
+    max-width: 50%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 25px 0;
+}
+.invoice-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}

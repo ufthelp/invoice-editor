@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the App rendering and Snapshot Test App Snapshot 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+    <h2>
+      Welcome to Invoice Editor
+    </h2>
+  </div>
+  <div
+    className="invoice"
+  >
+    <section
+      className="invoice-header"
+    >
+      <div>
+        Item
+      </div>
+      <div>
+        Qty
+      </div>
+      <div>
+        Price 
+      </div>
+      <div>
+        Total
+      </div>
+    </section>
+    <form>
+      <div
+        className="item-row"
+      >
+        <input
+          className="form-item"
+          defaultValue=""
+          id="item"
+          placeholder="Description of Item..."
+          required={true}
+          type="text"
+        />
+        <input
+          className="form-item form-qty"
+          name="qty"
+          onChange={[Function]}
+          required={true}
+          type="number"
+          value={0}
+        />
+        <input
+          className="form-item"
+          name="price"
+          onChange={[Function]}
+          required={true}
+          type="number"
+          value={0}
+        />
+        <input
+          className="form-item"
+          name="total"
+          required={true}
+          type="text"
+          value={0}
+        />
+        <button
+          className="delete-btn "
+          onClick={[Function]}
+          type="button"
+        >
+          X
+        </button>
+      </div>
+      <button
+        className="add-btn"
+        onClick={[Function]}
+        type="button"
+      >
+        Add Item
+      </button>
+      <section
+        className="invoice-total"
+      >
+        <section
+          className="invoice-p-labels"
+        >
+          <div
+            className="item-label"
+          >
+            Subtotal
+          </div>
+          <div
+            className="item-label"
+          >
+            Tax (5%)
+          </div>
+          <div
+            className="item-label"
+          >
+            Total
+          </div>
+        </section>
+        <section
+          className="invoice-cal"
+        >
+          <label
+            value={true}
+          >
+            $
+          </label>
+          <label
+            value={true}
+          >
+            $
+          </label>
+          <label
+            value={true}
+          >
+            $
+          </label>
+        </section>
+      </section>
+    </form>
+  </div>
+</div>
+`;
