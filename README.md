@@ -10,7 +10,7 @@ npm install
 npm start
 ```
 
-## How to App testcases
+## How to Run App testcases
 ```
 npm test
 ```
